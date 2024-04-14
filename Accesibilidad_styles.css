@@ -1,0 +1,162 @@
+/* Cards estilos CSS */
+/* Alumno: Alex Fernandez */
+
+/* Paleta de colores:
+    -
+    -
+    -
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, #acc-text {
+    background: rgb(255,128,109);
+}
+
+/* --------------------------------------------- */
+/* Header bar styles */
+header {
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+#header {
+    padding: 0.5rem;
+    z-index: 40;
+}
+
+#header-bar {
+    background-color: white;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+#header-bar img {
+    width: 80%;
+}
+
+#hdr-title h3 {
+    font-weight: 800;
+    color: #1E282D;
+    margin-bottom: 0;
+    transition: all 0.2s ease 0s;
+}
+
+
+/* --------------------------------------------- */
+/* Intro text styles */
+#introBlock, #arrowBlock {
+    padding: 2.5rem;
+    z-index: 40;
+    background-color: rgb(255,128,109);
+}
+
+#intro p {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: #1E282D;
+}
+
+#plus button, #minus button {
+    color: #1E282D;
+    background-color: rgb(255,128,109);
+    border: 0px;
+}
+
+#arrowBlock {
+    background: linear-gradient(180deg, rgba(255,128,109,1) 50%, rgba(175,67,40,1) 100%);
+    padding-bottom: 90px;
+
+}
+
+#arrow {
+    color: #1E282D;
+}
+
+
+/* --------------------------------------------- */
+/* ALL SÔMA STYLES BELOW */
+
+/* Header bar styles */
+#SOM-header-bar {
+    background-color: #DEF5EF;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+#SOM-header-bar #hdr-title {
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+#SOM-header-bar #hdr-title:hover {
+    color: #216854;
+    transform: scale(1.1);
+}
+
+#SOM-block {
+    background-color: #F5FCFA;
+}
+
+/* --------------------------------------------- */
+/* Contents styles */
+#SOM-section {
+    background-color: #F5FCFA;
+}
+
+#break-gap {
+    padding: 2.5%;
+    margin-bottom: 0;
+}
+
+#disp-6, #disp-1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: #216854;
+}
+
+#side-img img {
+    width: 75%;
+}
+
+#exercises form {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+#exercises #ejercicios, #list {
+    padding: 10px;
+    padding-right: 50%;
+    border-radius: 10px;
+    border-width: thin;
+}
+
+#exercises #list {
+    width: 100%;
+}
+
+#lista-ejercicios {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+#card-img {
+    border-radius: 10px;
+}
+
+/* --------------------------------------------- */
+/* Footer bar styles */
+#footer-bar {
+    background-color: #1B5A50;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+#footer-bar #ftr-title {
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
